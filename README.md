@@ -1,0 +1,1 @@
+# formatando-dispositivos-com-diskpart-
