@@ -1,8 +1,13 @@
-# Formatando dispositivos comrrumpidos no windows pelo diskpart
+Formatando dispositivos corrompidos no Windows usando o Diskpart
 
-Problema: Fui colocar meu pendrive no meu notebook e não estava sendo reconhecido e até mesmo ele pedia pra formatar mas não conseguia formatar normalmente.
+Problema: Ao inserir meu pendrive no notebook, ele não estava sendo reconhecido e solicitava formatação, mas não era possível formatá-lo normalmente.
 
 Solução:
+
+    Abra o prompt de comando (CMD) e digite "diskpart".
+
+    Após abrir o diskpart, liste os discos e partições detectados pelo dispositivo usando o comando:
+    
 No CMD DIGITAR "diskpart":
 Logo após abrir o diskpart você poderá listar os discos e partições visualizadas pelo dispositivo:
 DISKPART> list disk
@@ -32,6 +37,11 @@ DISKPART> format fs= ntfs
 
 Em este computador podemos ver que o pendrive foi formatado e está funcionando perfeitamente.
 ![image](https://github.com/emelynfreire/formatando-dispositivos-com-diskpart-/assets/18231484/d264d636-c29b-42f4-9898-795c663cbfb2)
+
+Sequência de comandos:
+
+![image](https://github.com/emelynfreire/formatando-dispositivos-com-diskpart-/assets/18231484/797ff8bd-cb38-4738-81f7-7dfb8e90c751)
+
 
 
 
