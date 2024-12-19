@@ -42,6 +42,10 @@ Sequência de comandos:
 
 ![image](https://github.com/emelynfreire/formatando-dispositivos-com-diskpart-/assets/18231484/797ff8bd-cb38-4738-81f7-7dfb8e90c751)
 
+para HD externo - exFAT melhor opção - sequencia a seguir:
+![image](https://github.com/user-attachments/assets/9db66862-2939-4487-842a-e4e9a20417f4)
+
+
 
 
 
